@@ -37,8 +37,9 @@ JavaScript - це мова програмування високого рівн�
 	</body>
 	</html>
 ```
-
+ gvhfd sjhdfdf hdbfhd ```javascript.js```:
 ```js
+alert("It is a webpage!");
 ```
 	
 ## 4. Типи даних
