@@ -1,6 +1,9 @@
 # Доклад з теми основи програмування на JavaScript
-Виконавець: Трибунська Кароліна Євгенівна 
+## Виконала: Трибунська Кароліна Євгенівна 
+## 
+*Telegram: @Karolina_10
+*Email: karolinatribunskaya@gmail.com
 
-Посилання на доклад: [Report.md](https://github.com/KarolinaTribunskaya/IPZ/blob/main/Report.md)
+[Доповідь](https://github.com/KarolinaTribunskaya/IPZ/blob/main/Report.md)
 
-Посилання на сайт: []()
+[Методичні вказівки](https://jace-dev.herokuapp.com/design/js-talks#/)
