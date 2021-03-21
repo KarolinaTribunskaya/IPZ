@@ -8,10 +8,10 @@
 <body>
 	
 	<script>
-		document.write("<h2>Работа с переменными</h2>")
+		document.write("<h2>Робота зі змінними</h2>")
 		//Работа с переменными
 		var num = 1.45;
-		//JavaScript чувствителен к регистру. Num и num - разные переменные
+		//JavaScript чутливий до регістру
 		var Num = 23;
 		var string = "Hello";
 		var bool = true;
@@ -29,19 +29,14 @@
 		var firstNum = 24;
 		var secondNum = 12;
 
-		//Прибавляем к firstNum числа
-		secondNum = secondNum + 3;
-		secondNum += 5
-
-		// Запись не в консоли, а вывод на страницу
 		//Додавання
-		document.write(firstNum + secondNum, "<br>");
+		document.write(firstNum + "+" + secondNum + " = ", firstNum + secondNum, "<br>");
 		//Віднімання
-		document.write(firstNum - secondNum, "<br>");
+		document.write(firstNum + "-" + secondNum + " = ", firstNum - secondNum, "<br>");
 		//Ділення
-		document.write(firstNum / secondNum, "<br>");
+		document.write(firstNum + "/" + secondNum + " = ", firstNum / secondNum, "<br>");
 		//Залишок від ділення
-		document.write(firstNum / secondNum, "<br>");
+		document.write(firstNum + "%" + secondNum + " = ", firstNum % secondNum, "<br>");
 
 		//Використання Math для отримання абсолютного значення
 		document.write("Абсолютне значення ("+ -12 + ")" + " = ", Math.abs(-12), "<br>");
