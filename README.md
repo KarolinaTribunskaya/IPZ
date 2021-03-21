@@ -1,6 +1,6 @@
 # Доклад з теми основи програмування на JavaScript
 ## Виконала: Трибунська Кароліна Євгенівна 
-## 
+## Контакти
 * Telegram: @Karolina_10
 * Email: karolinatribunskaya@gmail.com
 
