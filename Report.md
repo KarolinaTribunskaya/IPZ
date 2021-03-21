@@ -91,3 +91,20 @@ document.write(firstNum / secondNum, "<br>");
 //Залишок від ділення
 document.write(firstNum / secondNum, "<br>");
 ```
+Операції округлення й використання бібліотеки Math для отримання математичних констант й функцій:
+```js
+//Використання Math для отримання абсолютного значення
+document.write("Абсолютне значення ("+ -12 + ")" + " = ", Math.abs(-12), "<br>");
+//Значення числа пі та експоненти
+document.write("pi = ", Math.PI, "<br>");
+document.write("e = ", Math.E + "<br>");
+
+//Округлення числа різними способами
+var number = 2.3; 
+//Округлення до більшого
+document.write("Округлення до більшого " + number + " ~ ", Math.ceil(number) + "<br>");
+//Округлення до меншого
+document.write("Округлення до меншого " + number + " ~ ", Math.floor(number) + "<br>");
+//Округлення математичне
+document.write("Округлення математичне " + number + " ~ ", Math.round(number) + "<br>");
+```
