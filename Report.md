@@ -86,13 +86,13 @@ var firstNum = 24;
 var secondNum = 12;
 
 //Додавання
-document.write(firstNum + secondNum, "<br>");
+document.write(firstNum + "+" + secondNum + " = ", firstNum + secondNum, "<br>");
 //Віднімання
-document.write(firstNum - secondNum, "<br>");
+document.write(firstNum + "-" + secondNum + " = ", firstNum - secondNum, "<br>");
 //Ділення
-document.write(firstNum / secondNum, "<br>");
+document.write(firstNum + "/" + secondNum + " = ", firstNum / secondNum, "<br>");
 //Залишок від ділення
-document.write(firstNum / secondNum, "<br>");
+document.write(firstNum + "%" + secondNum + " = ", firstNum % secondNum, "<br>");
 ```
 Операції округлення й використання бібліотеки Math для отримання математичних констант й функцій:
 ```js
