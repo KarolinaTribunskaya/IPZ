@@ -21,11 +21,11 @@
 		console.log(string);
 		console.log(bool);
 
-		//Получение данных от пользователя
-		//var name = prompt("Как Вас зовут?");
-		//console.log("Hello " + name);
+		//Отримання даних від користувача
+		//var name = prompt("Введіть Ваше ім'я.");
+		//console.log("Добрий день " + name);
 
-		// Операции над переменными + - / %
+		//Оголошення змінних і присвоєння їм значення
 		var firstNum = 24;
 		var secondNum = 12;
 
@@ -34,22 +34,29 @@
 		secondNum += 5
 
 		// Запись не в консоли, а вывод на страницу
-		document.write(firstNum + " + " + secondNum + " = ", firstNum + secondNum, "<br>");
-		document.write(firstNum + " - " + secondNum + " = ", firstNum - secondNum, "<br>");
-		document.write(firstNum + " / " + secondNum + " = ", firstNum / secondNum, "<br>");
+		//Додавання
+		document.write(firstNum + secondNum, "<br>");
+		//Віднімання
+		document.write(firstNum - secondNum, "<br>");
+		//Ділення
+		document.write(firstNum / secondNum, "<br>");
+		//Залишок від ділення
+		document.write(firstNum / secondNum, "<br>");
 
-		document.write("Абсолютное значение ("+ -12 + ")" + " = ", Math.abs(-12), "<br>");
+		//Використання Math для отримання абсолютного значення
+		document.write("Абсолютне значення ("+ -12 + ")" + " = ", Math.abs(-12), "<br>");
+		//Значення числа пі та експоненти
 		document.write("pi = ", Math.PI, "<br>");
 		document.write("e = ", Math.E + "<br>");
 
+		//Округлення числа різними способами
 		var number = 2.3; 
-		//Округление до большего
-		document.write("Округление до большего " + number + " ~ ", Math.ceil(number) + "<br>");
-		//Округление до меньшего
-		document.write("Округление до меньшего " + number + " ~ ", Math.floor(number) + "<br>");
-		//Округление математическое
-		document.write("Округление математическое " + number + " ~ ", Math.round(number) + "<br>");
-
+		//Округлення до більшого
+		document.write("Округлення до більшого " + number + " ~ ", Math.ceil(number) + "<br>");
+		//Округлення до меншого
+		document.write("Округлення до меншого " + number + " ~ ", Math.floor(number) + "<br>");
+		//Округлення математичне
+		document.write("Округлення математичне " + number + " ~ ", Math.round(number) + "<br>");
 	</script>
 </body>
 </html>
