@@ -111,3 +111,6 @@ document.write("Округлення до меншого " + number + " ~ ", Mat
 //Округлення математичне
 document.write("Округлення математичне " + number + " ~ ", Math.round(number) + "<br>");
 ```
+Результати роботи програми у браузері:
+![image](https://user-images.githubusercontent.com/78512320/111909470-8063ec80-8a6e-11eb-8d7b-c4e3cf6c86a0.png)
+
